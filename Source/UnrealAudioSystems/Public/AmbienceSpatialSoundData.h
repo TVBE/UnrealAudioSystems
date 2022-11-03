@@ -8,7 +8,7 @@
 
 /** Defines the spawning behavior of a spatial AmbienceSoundSource */
 USTRUCT(BlueprintType)
-struct FAmbienceSpatialSoundPlayData
+struct FAmbienceSpatialSoundData
 {
 	GENERATED_USTRUCT_BODY()
 
@@ -50,7 +50,7 @@ struct FAmbienceSpatialSoundPlayData
 	
 
 	/** Constructor with default values. */
-	FAmbienceSpatialSoundPlayData()
+	FAmbienceSpatialSoundData()
 	{
 		Sounds = FAmbienceSoundData();
 		Volume = 1.0f;

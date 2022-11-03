@@ -21,6 +21,6 @@ public:
 	FAmbienceBaseLayerData BaseLayer;
 
 	UPROPERTY(BlueprintReadOnly, EditAnywhere)
-	TArray<FAmbienceSpatialSoundPlayData> SpatialSounds;
+	TArray<FAmbienceSpatialSoundData> SpatialSounds;
 
 };
